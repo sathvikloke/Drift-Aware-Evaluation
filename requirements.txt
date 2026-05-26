@@ -1,0 +1,24 @@
+# DriftScore experiment dependencies
+# Install with: pip install -r requirements.txt --break-system-packages
+
+# Core
+torch>=2.0.0
+torchvision>=0.15.0
+numpy>=1.24.0
+Pillow>=9.0.0
+scipy>=1.10.0
+pandas>=1.5.0
+matplotlib>=3.7.0
+
+# DriftScore models
+lpips>=0.1.4
+# CLIP: install separately (not on PyPI):
+#   pip install git+https://github.com/openai/CLIP.git
+
+# NR-IQA baselines
+pyiqa>=0.1.10
+
+# Optional: for running InstructPix2Pix multi-turn editing experiments
+# diffusers>=0.25.0
+# transformers>=4.35.0
+# accelerate>=0.24.0
