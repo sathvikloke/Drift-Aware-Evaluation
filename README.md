@@ -1,6 +1,6 @@
 # DriftScore: Anchor-Relative Metric for Multi-Turn Image Quality Drift
 
-Code for the paper **"DriftScore: An Anchor-Relative Metric for Detecting Quality Drift in Multi-Turn Multimodal Generation"**, presented at EvalMG @ ACM SIGIR 2026.
+Code for the paper **"DriftScore: An Anchor-Relative Metric for Detecting Quality Drift in Multi-Turn Multimodal Generation"**, submitted to EvalMG @ ACM SIGIR 2026.
 
 > **TL;DR** — Existing NR-IQA metrics score each frame in isolation. Classical ones (BRISQUE, NIQE, PIQE) actually *improve* as images degrade (τ ≈ −0.8). DriftScore fixes this by measuring all drift relative to the original round-zero image.
 
